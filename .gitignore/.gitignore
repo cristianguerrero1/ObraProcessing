@@ -1,0 +1,486 @@
+int x = 5;
+int y  = 5;
+int marcoAncho = 390;
+int marcoAlto = 590;
+
+void setup()
+{
+background(#FFFFFF);
+size(400, 600);
+
+}
+
+void draw ()
+{
+  fill(#000000);
+  rect(x,y, marcoAncho,marcoAlto);
+  noStroke();
+  
+  fill(#173115);
+  triangle(125, 60, 10, 60, 105, 264); // G D E
+  fill(#2E5F2A);
+  triangle(100, 10, 200, 10,100,40); // I H G
+  triangle(100, 40, 10, 60, 75, 200); // G D E
+
+  fill(#173115);
+  beginShape();
+  vertex(10, 60); // F
+  vertex(10, 300); // B
+  vertex(55, 300); // C
+  vertex(60, 210); // A
+  endShape();
+  fill(#23481F);
+  triangle(10, 60 ,80, 45, 60, 210); // F D A
+  
+  fill(#FAC32B);
+  beginShape();
+  vertex(155, 60); // A
+  vertex(200, 45); // B
+  vertex(205, 95); // D
+  vertex(165, 100); // C
+  endShape();
+  
+  fill(#A06A13);
+  beginShape();
+  vertex(184, 200); // Q
+  vertex(184, 250); // Z
+  vertex(230, 250); // AB
+  vertex(230, 220); // AC
+  vertex(220, 200); // AE
+  endShape();
+  
+  fill(#BF8819); //
+  beginShape();
+  vertex(205, 95); // D
+  vertex(227, 100); // F
+  vertex(230, 220); // AC
+  vertex(182, 180); // O
+  endShape();
+  
+  fill(#FAAB2B);
+  beginShape();
+  vertex(200, 45); // B
+  vertex(225, 65); // E
+  vertex(227, 100); // F
+  vertex(205, 95); // D
+  endShape();
+  
+  fill(#D89A34);
+  beginShape();
+  vertex(165, 100); // C
+  vertex(205, 95); // D
+  vertex(202, 120); // J
+  vertex(180, 130); // K
+  vertex(173, 125); // I
+  endShape();
+  
+  fill(#000000);
+  beginShape();
+  vertex(173, 125); // I
+  vertex(177, 140); // H
+  vertex(215, 140); // G
+  vertex(213, 130); // N
+  vertex(202, 120); // J
+  vertex(180, 120); // K-10
+  endShape();
+  
+  fill(#D89A34);
+  beginShape();
+  vertex(155, 60); // A
+  vertex(150, 80); // S
+  vertex(152, 102); // T
+  vertex(170, 143); // U
+  vertex(167, 145); // V
+  vertex(170, 200); // R
+  vertex(184, 200); // Q
+  vertex(177, 140); // H
+  vertex(165, 100); // C
+  endShape();
+  
+  fill(#FAAB2B);
+  beginShape();
+  vertex(177, 140); // H
+  vertex(185, 140); // P
+  vertex(182, 180); // O
+  endShape();
+  
+  fill(#B77E21);
+  beginShape();
+  vertex(185, 140); // P
+  vertex(204, 140); // M
+  vertex(204, 165); // AA
+  vertex(182, 180); // O
+  endShape();
+  
+  fill(#7C583C);
+  beginShape();
+  vertex(204, 140); // M
+  vertex(215, 140); // G
+  vertex(204, 165); // AA
+  endShape();
+  
+  fill(#D8650D);
+  beginShape();
+  vertex(182, 180); // O
+  vertex(215, 140); // G
+  vertex(225, 200); // W
+  vertex(184, 200); // Q
+  endShape();
+  
+  fill(#6F4C14);
+  beginShape();
+  vertex(170, 200); // R
+  vertex(184, 200); // Q
+  vertex(184, 235); // AF
+  endShape();
+  
+  fill(#1F190F);
+  beginShape();
+  vertex(228, 65); // L
+  vertex(240, 68); // AT
+  vertex(228, 130); // AY
+  endShape();
+  
+  fill(#5F4D30);
+  beginShape();
+  vertex(240, 68); // AT
+  vertex(292, 73); // AU
+  vertex(289, 135); // AV
+  vertex(228, 135); // AZ
+  vertex(230, 100); // AW
+  endShape();
+  
+  fill(#000000);
+  beginShape();
+  vertex(230, 110); // AW
+  vertex(290, 124); // BA
+  vertex(288, 127); // BB
+  vertex(228, 114); // AY
+  endShape();
+  
+  fill(#000000);
+  beginShape();
+  vertex(228, 130); // AZ
+  vertex(287, 130); // AV
+  vertex(268, 140); // BC
+  vertex(260, 132); // BD
+  vertex(228, 132); // BE
+  endShape();
+  
+  fill(#392E1D);
+  beginShape();
+  vertex(228, 135); // BE
+  vertex(242, 210); // AD
+  vertex(230, 210); // AR
+  endShape();
+  
+  fill(#392E1D);
+  beginShape();
+  vertex(242, 210); // AD
+  vertex(268, 140); // BC
+  vertex(270, 258); // BF
+  vertex(240, 275); // AM
+  endShape();
+  
+  fill(#8E7143);
+  beginShape();
+  vertex(292, 73); // AU
+  vertex(295, 127); // BG
+  vertex(290, 165); // BH
+  vertex(292, 200); // BJ
+  vertex(291, 206); // BK
+  vertex(270, 258); // BF
+  vertex(268, 140); // BC
+  vertex(287, 130); // AV
+  vertex(288, 127); // BB
+  vertex(290, 124); // BA
+  endShape();
+  
+  fill(#C9A65B);
+  beginShape();
+  vertex(268, 140); // BC
+  vertex(287, 130); // AV
+  vertex(288, 127); // BB
+  vertex(290, 124); // BA
+  vertex(295, 127); // BG
+  vertex(290, 165); // BH
+  vertex(269, 200); // BJ
+  endShape();
+  
+  fill(#8E7143);
+  beginShape();
+  vertex(242, 210); // AD
+  vertex(268, 140); // BC
+  vertex(260, 132); // BD
+  vertex(228, 135); // BE
+  endShape();
+  
+  
+  
+  fill(#640E01);
+  beginShape();
+  vertex(215, 235); // AJ
+  vertex(230, 235); // AF
+  vertex(230, 225); // AI red
+  vertex(215, 225); // AJ red
+  endShape();
+  
+  
+  
+  
+  
+  
+  fill(#272117);
+  beginShape();
+  vertex(217, 210); // AG
+  vertex(207, 225); // AH
+  vertex(230, 225); // AS
+  vertex(230, 210); // AR
+  endShape();
+  
+  fill(#000000);
+  beginShape();
+  vertex(230, 210); // AR
+  vertex(230, 225); // AS
+  vertex(252, 225); // AI
+  vertex(242, 210); // AD
+  endShape();
+  
+  fill(#272117);
+  beginShape();
+  vertex(215, 235); // AJ
+  vertex(205, 245); // AK
+  vertex(220, 275); // AL
+  vertex(230, 275); // AQ
+  vertex(230, 250); // AB
+  vertex(230, 235); // AF
+  endShape();
+  
+   fill(#000000);
+  beginShape();
+  vertex(230, 275); // AQ
+  vertex(240, 275); // AM
+  vertex(255, 245); // AN
+  vertex(245, 235); // AO
+  vertex(230, 235); // AF
+  endShape();
+  
+  fill(#6F4C14);
+  beginShape();
+  vertex(223, 63); // E
+  vertex(228, 65); // L
+  vertex(230, 210); // AR
+  vertex(228, 210); // AC
+  endShape();
+  
+  
+  
+   fill(#25729B);
+  beginShape();
+  vertex(184, 250); // Z
+  vertex(220, 275);  // AL
+  vertex(220, 330); // CA
+  vertex(188, 322); // CB
+  endShape();
+  
+  fill(#72A1B9);
+  beginShape();
+  vertex(188, 322); // CB
+  vertex(230, 330); // CE
+  vertex(228, 430);  // CF
+  vertex(194, 410); // CG
+  endShape();
+  
+  fill(#526715);
+  beginShape();
+  vertex(194, 410); // CG
+  vertex(228, 430);  // CF
+  vertex(223, 596); // CJ
+  vertex(205, 596); // CI
+  endShape();
+  
+  fill(#0C394D);
+  beginShape();
+  vertex(194, 410); // CG
+  vertex(181, 400);  // CM
+  vertex(177, 305); // CÑ
+  vertex(187, 305); // CD
+  endShape();
+  
+  fill(#6B9FB7);
+  beginShape();
+  vertex(177, 305); // CÑ
+  vertex(187, 305); // CD
+  vertex(184, 235); // AF
+  vertex(173, 205);  // DA
+  endShape();
+  
+  fill(#425219);
+  beginShape();
+  vertex(175, 245); // CP
+  vertex(90, 245); // CQ
+  vertex(82, 267); // CS
+  vertex(175, 267);  // CO
+  endShape();
+  
+  fill(#7B9341);
+  beginShape();
+  vertex(176, 267);  // CO
+  vertex(178, 305); // CÑ
+  vertex(20, 305); // CZ
+  vertex(25, 267); // CT
+  endShape();
+  
+  fill(#9BAF68);
+  beginShape();
+  vertex(75, 305); // CU
+  vertex(120, 305); // CV
+  vertex(150, 405);  // CN
+  vertex(110, 410); // CX
+  endShape();
+  
+  fill(#D8E3BE);
+  beginShape();
+  vertex(120, 305); // CV
+  vertex(178, 305); // CÑ
+  vertex(181, 400);  // CM
+  vertex(150, 405);  // CN
+  endShape();
+  
+  fill(#7E983F);
+  beginShape();
+  vertex(150, 405);  // CN
+  vertex(181, 400);  // CM
+  vertex(194, 410); // CG
+  vertex(202, 535); // CH
+  endShape();
+  
+  fill(#A7B958);
+  beginShape();
+  vertex(150, 405);  // CN
+  vertex(202, 535); // CH
+  vertex(150, 530);  // CL
+  vertex(110, 410); // CX
+  endShape();
+  
+  
+  fill(#2B4825);
+  beginShape();
+  vertex(25, 267); // CT
+  vertex(05, 305); // DE
+  vertex(05, 596); // DH
+  vertex(45, 596); // DI
+  vertex(50, 402); // DD
+  endShape();
+  
+  fill(#326428);
+  beginShape();
+  vertex(120, 525); // DB
+  vertex(87, 340); // CW
+  vertex(75, 305); // CU
+  vertex(32, 305); // CZ
+  vertex(32, 350); // CZ
+  vertex(50, 405); // DC
+  vertex(75, 520); // DG
+  endShape();
+  
+  fill(#718E28);
+  beginShape();
+  vertex(87, 340); // CW
+  vertex(150, 530);  // CL
+  vertex(120, 525); // DB
+  vertex(70, 390); // CY
+  endShape();
+  
+  fill(#235F16);
+  beginShape();
+  vertex(150, 530);  // CL
+  vertex(202, 535); // CH
+  vertex(205, 596); // CI
+  vertex(180, 596); // CK
+  endShape();
+  
+  fill(#173E0F);
+  beginShape();
+  vertex(120, 525); // DB
+  vertex(150, 530);  // CL
+  vertex(180, 593); // CK
+  endShape();
+  
+  fill(#0C396F);
+  beginShape();
+  vertex(295, 256); // DM
+  vertex(300, 305); // DÑ
+  vertex(275, 306); // DP
+  vertex(270, 258); // BF
+  endShape();
+  
+  fill(#406086);
+  beginShape();
+  vertex(270, 258); // BF
+  vertex(240, 275); // AM
+  vertex(239, 310); // DO
+  vertex(275, 306); // DP
+  endShape();
+  
+  fill(#5397A7);
+  beginShape();
+  vertex(250, 309); // DZ
+  vertex(250, 325); // DW
+  vertex(260, 325); // DX
+  vertex(265, 400); // DY
+  vertex(280, 360); // DR
+  vertex(274, 306); // DP
+  endShape();
+  
+  fill(#C0C961);
+  beginShape();
+  vertex(290, 305); // DL
+  vertex(265, 400); // DJ
+  vertex(380, 390); // DQ
+  vertex(390, 302); // EA
+  endShape();
+  
+    fill(#B79721);
+  beginShape();
+  vertex(320, 330); // DL
+  vertex(310, 380); // DJ
+  vertex(350, 380); // DQ
+  vertex(350, 330); // EA
+  endShape();
+  
+  
+  
+  fill(#78982E);
+  beginShape();
+  vertex(296, 270); // DN
+  vertex(390, 302); // EA
+  vertex(300, 305); // DÑ
+  endShape();
+  
+  fill(#486720);
+  beginShape();
+  vertex(265, 400); // DJ
+  vertex(240, 500); // DG
+  vertex(245, 550); // DU
+  vertex(300, 530); // DT
+  vertex(290, 398); // DK
+  endShape();
+  
+  fill(#415F1B);
+  beginShape();
+  vertex(245, 550); // DU
+  vertex(255, 596); // EB
+  vertex(310, 596); // DV
+  vertex(300, 530); // DT
+  endShape();
+  
+  fill(#283913);
+  beginShape();
+  vertex(310, 596); // DV
+  vertex(370, 540); // DG
+  vertex(380, 390); // DQ
+  vertex(290, 398); // DK
+  vertex(300, 530); // DT
+  endShape();
+}
